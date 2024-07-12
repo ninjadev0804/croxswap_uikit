@@ -1,0 +1,44 @@
+import React from "react";
+import Svg from "../../../components/Svg/Svg";
+import { SvgProps } from "../../../components/Svg/types";
+
+const Icon: React.FC<SvgProps> = (props) => {
+  return (
+    <Svg viewBox="0 0 96 96" {...props}>
+      <image id="image0" width="96" height="96" x="0" y="0"
+        href="data:image/png;base64,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
+MDMrMDA6MDApyWUMAAAAAElFTkSuQmCC" />
+    </Svg>
+  );
+};
+
+export default Icon;
